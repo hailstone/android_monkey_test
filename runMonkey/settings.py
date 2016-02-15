@@ -77,6 +77,7 @@ releaseName = {"K":      "kabinett",
                "Nearby": "nearbuy-trunk",
                "M":       "muscadelle",
                "N":       "nebbiolo",
+               "trunk": "trunk"
                }
 
 localPath = {"local_win": "C:\\Users\\shwang\\Downloads\\",

@@ -204,7 +204,7 @@ if __name__ == "__main__":
 
     if need_auto_upgrade:
         # specify the source you want to download from: artifactory or shareCN (shareCN_win,shareCN_linux,shareCN_mac)
-        (app, source, branch, server) = ("mango", "shareCN_mac", "N", "staging2")
+        (app, source, branch, server) = ("tango", "shareCN_mac", "trunk", "staging2")
 
         if "share" in source:
             downloadURL = sharecn.getDownloadURL(app, settings.urlForDownloading[source], settings.releaseName[branch],
